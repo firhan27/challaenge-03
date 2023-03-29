@@ -6,11 +6,11 @@ const Header = () => {
     <div className="header">
       <div>
         <Link to="/addlist">
-          <button>Add List</button>
+          <button className="button-todo">Todo Input</button>
         </Link>
       </div>
       <div>
-        <h1>Table List</h1>
+        <h1>Todo List</h1>
       </div>
     </div>
   );

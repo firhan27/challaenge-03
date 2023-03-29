@@ -30,7 +30,12 @@ const TodosList = ({ todos, setTodos, setEditTodo }) => {
             <button className="button-complete task-button" onClick={() => handleComplete(todo)}>
               <i className="fa fa-check-circle"></i>
             </button>
-            <button className="button-edit task-button" onClick={() => handleEdit(todo)}>
+            <button
+              className="button-edit task-button"
+              onClick={() => {
+                handleEdit(todo);
+              }}
+            >
               <i className="fa fa-edit"></i>
             </button>
             <button className="button-delete task-button" onClick={() => handleDelete(todo)}>

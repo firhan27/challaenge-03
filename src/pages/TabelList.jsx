@@ -8,6 +8,7 @@ function TabelList() {
   const [input, setInput] = useState("");
   const [todos, setTodos] = useState(initialState);
   const [editTodo, setEditTodo] = useState(null);
+  // const [buttonCLick, setButtonClick] = useState(false);
 
   useEffect(() => {
     localStorage.setItem("todos", JSON.stringify(todos));

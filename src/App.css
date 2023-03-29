@@ -4,7 +4,7 @@
 }
 
 .container {
-  /* background: linear-gradient(to right bottom, #57d8e9, #24c4d2); */
+  background: linear-gradient(to right bottom, #57d8e9, #24c4d2);
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -94,6 +94,19 @@
 
 .button-delete {
   color: lightseagreen;
+}
+
+.button-todo {
+  margin: auto;
+  margin-top: 10px;
+  width: 150px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 0;
+  background-color: #3dc1c3;
+  cursor: pointer;
+  color: #fff;
 }
 
 .complete {
